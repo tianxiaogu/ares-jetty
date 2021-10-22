@@ -1,0 +1,806 @@
+Running Jetty: 
+2015-06-29 03:22:46.236:INFO::Redirecting stderr/stdout to /home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/logs/2015_06_28.stderrout.log
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@47
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@47
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@47
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 9. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 11. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 12. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 13. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 14. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 15. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 16. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 17. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 9. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 11. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 12. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 13. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 14. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 15. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 16. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 17. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 9. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 11. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 12. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 13. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 14. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 15. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 16. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 17. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 9. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 11. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 12. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 13. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 14. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 15. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 16. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 17. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 9. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 11. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 12. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 13. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 14. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 15. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 16. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 17. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 9. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 11. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 12. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 13. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 14. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 15. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 16. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 17. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.refObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@53
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@204
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 14. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 16. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 17. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 18. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 19. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 20. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 21. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 22. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 23. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 24. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.refObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@53
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@204
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 14. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 16. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 17. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 18. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 19. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 20. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 21. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 22. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 23. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 24. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.refObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@53
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@204
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 14. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 16. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 17. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 18. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 19. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 20. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 21. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 22. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 23. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 24. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@326
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@329
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+2015-06-29 03:22:46.506:INFO:oejs.Server:jetty-7.6.0.v20120127
+2015-06-29 03:22:46.586:INFO:oejdp.ScanningAppProvider:Deployment monitor /home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps at interval 1
+2015-06-29 03:22:46.598:INFO:oejd.DeploymentManager:Deployable added: /home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/sioobe.war
+2015-06-29 03:22:46.669:INFO:oejw.WebInfConfiguration:Extract jar:file:/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/sioobe.war!/ to /tmp/jetty-0.0.0.0-8080-sioobe.war-_sioobe-any-/webapp
+2015-06-29 03:22:47.365:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/sioobe,file:/tmp/jetty-0.0.0.0-8080-sioobe.war-_sioobe-any-/webapp/},/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/sioobe.war
+2015-06-29 03:22:47.493:INFO:oejdp.ScanningAppProvider:Deployment monitor /home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/contexts at interval 1
+2015-06-29 03:22:47.495:INFO:oejd.DeploymentManager:Deployable added: /home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/contexts/javadoc.xml
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.util.TypeUtil.call(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@109
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@244
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 9. org.eclipse.jetty.deploy.providers.ContextProvider.createContextHandler(Lorg/eclipse/jetty/deploy/App;)Lorg/eclipse/jetty/server/handler/ContextHandler;@88
+Fill Stack: 10. org.eclipse.jetty.deploy.App.getContextHandler()Lorg/eclipse/jetty/server/handler/ContextHandler;@13
+Fill Stack: 11. org.eclipse.jetty.deploy.bindings.StandardDeployer.processBinding(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;)V@1
+Fill Stack: 12. org.eclipse.jetty.deploy.AppLifeCycle.runBindings(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;Lorg/eclipse/jetty/deploy/DeploymentManager;)V@96
+Fill Stack: 13. org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(Lorg/eclipse/jetty/deploy/DeploymentManager$AppEntry;Ljava/lang/String;)V@145
+Fill Stack: 14. org.eclipse.jetty.deploy.DeploymentManager.addApp(Lorg/eclipse/jetty/deploy/App;)V@93
+Fill Stack: 15. org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(Ljava/lang/String;)V@56
+Fill Stack: 16. org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(Ljava/lang/String;)V@5
+Fill Stack: 17. org.eclipse.jetty.util.Scanner.reportAddition(Ljava/lang/String;)V@41
+Fill Stack: 18. org.eclipse.jetty.util.Scanner.reportDifferences(Ljava/util/Map;Ljava/util/Map;)V@595
+Fill Stack: 19. org.eclipse.jetty.util.Scanner.scan()V@28
+Fill Stack: 20. org.eclipse.jetty.util.Scanner.doStart()V@25
+Fill Stack: 21. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 22. org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart()V@194
+Fill Stack: 23. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 24. org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(Lorg/eclipse/jetty/deploy/AppProvider;)V@8
+Fill Stack: 25. org.eclipse.jetty.deploy.DeploymentManager.doStart()V@96
+Fill Stack: 26. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 27. org.eclipse.jetty.util.component.AggregateLifeCycle.doStart()V@64
+Fill Stack: 28. org.eclipse.jetty.server.handler.AbstractHandler.doStart()V@19
+Fill Stack: 29. org.eclipse.jetty.server.handler.HandlerWrapper.doStart()V@17
+Fill Stack: 30. org.eclipse.jetty.server.Server.doStart()V@84
+Fill Stack: 31. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 32. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@386
+Fill Stack: 33. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 34. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 35. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 36. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 37. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 38. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 39. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 40. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 41. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+2015-06-29 03:22:47.508:INFO:oejsh.ContextHandler:started o.e.j.s.h.ContextHandler{/javadoc,file:/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/javadoc/}
+2015-06-29 03:22:47.508:INFO:oejd.DeploymentManager:Deployable added: /home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/contexts/test.xml
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.deploy.providers.ContextProvider.createContextHandler(Lorg/eclipse/jetty/deploy/App;)Lorg/eclipse/jetty/server/handler/ContextHandler;@88
+Fill Stack: 9. org.eclipse.jetty.deploy.App.getContextHandler()Lorg/eclipse/jetty/server/handler/ContextHandler;@13
+Fill Stack: 10. org.eclipse.jetty.deploy.bindings.StandardDeployer.processBinding(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;)V@1
+Fill Stack: 11. org.eclipse.jetty.deploy.AppLifeCycle.runBindings(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;Lorg/eclipse/jetty/deploy/DeploymentManager;)V@96
+Fill Stack: 12. org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(Lorg/eclipse/jetty/deploy/DeploymentManager$AppEntry;Ljava/lang/String;)V@145
+Fill Stack: 13. org.eclipse.jetty.deploy.DeploymentManager.addApp(Lorg/eclipse/jetty/deploy/App;)V@93
+Fill Stack: 14. org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(Ljava/lang/String;)V@56
+Fill Stack: 15. org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(Ljava/lang/String;)V@5
+Fill Stack: 16. org.eclipse.jetty.util.Scanner.reportAddition(Ljava/lang/String;)V@41
+Fill Stack: 17. org.eclipse.jetty.util.Scanner.reportDifferences(Ljava/util/Map;Ljava/util/Map;)V@595
+Fill Stack: 18. org.eclipse.jetty.util.Scanner.scan()V@28
+Fill Stack: 19. org.eclipse.jetty.util.Scanner.doStart()V@25
+Fill Stack: 20. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 21. org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart()V@194
+Fill Stack: 22. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 23. org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(Lorg/eclipse/jetty/deploy/AppProvider;)V@8
+Fill Stack: 24. org.eclipse.jetty.deploy.DeploymentManager.doStart()V@96
+Fill Stack: 25. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 26. org.eclipse.jetty.util.component.AggregateLifeCycle.doStart()V@64
+Fill Stack: 27. org.eclipse.jetty.server.handler.AbstractHandler.doStart()V@19
+Fill Stack: 28. org.eclipse.jetty.server.handler.HandlerWrapper.doStart()V@17
+Fill Stack: 29. org.eclipse.jetty.server.Server.doStart()V@84
+Fill Stack: 30. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 31. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@386
+Fill Stack: 32. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 33. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 34. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 35. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 36. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 37. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 38. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 39. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 40. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 8. org.eclipse.jetty.deploy.providers.ContextProvider.createContextHandler(Lorg/eclipse/jetty/deploy/App;)Lorg/eclipse/jetty/server/handler/ContextHandler;@88
+Fill Stack: 9. org.eclipse.jetty.deploy.App.getContextHandler()Lorg/eclipse/jetty/server/handler/ContextHandler;@13
+Fill Stack: 10. org.eclipse.jetty.deploy.bindings.StandardDeployer.processBinding(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;)V@1
+Fill Stack: 11. org.eclipse.jetty.deploy.AppLifeCycle.runBindings(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;Lorg/eclipse/jetty/deploy/DeploymentManager;)V@96
+Fill Stack: 12. org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(Lorg/eclipse/jetty/deploy/DeploymentManager$AppEntry;Ljava/lang/String;)V@145
+Fill Stack: 13. org.eclipse.jetty.deploy.DeploymentManager.addApp(Lorg/eclipse/jetty/deploy/App;)V@93
+Fill Stack: 14. org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(Ljava/lang/String;)V@56
+Fill Stack: 15. org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(Ljava/lang/String;)V@5
+Fill Stack: 16. org.eclipse.jetty.util.Scanner.reportAddition(Ljava/lang/String;)V@41
+Fill Stack: 17. org.eclipse.jetty.util.Scanner.reportDifferences(Ljava/util/Map;Ljava/util/Map;)V@595
+Fill Stack: 18. org.eclipse.jetty.util.Scanner.scan()V@28
+Fill Stack: 19. org.eclipse.jetty.util.Scanner.doStart()V@25
+Fill Stack: 20. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 21. org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart()V@194
+Fill Stack: 22. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 23. org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(Lorg/eclipse/jetty/deploy/AppProvider;)V@8
+Fill Stack: 24. org.eclipse.jetty.deploy.DeploymentManager.doStart()V@96
+Fill Stack: 25. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 26. org.eclipse.jetty.util.component.AggregateLifeCycle.doStart()V@64
+Fill Stack: 27. org.eclipse.jetty.server.handler.AbstractHandler.doStart()V@19
+Fill Stack: 28. org.eclipse.jetty.server.handler.HandlerWrapper.doStart()V@17
+Fill Stack: 29. org.eclipse.jetty.server.Server.doStart()V@84
+Fill Stack: 30. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 31. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@386
+Fill Stack: 32. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 33. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 34. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 35. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 36. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 37. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 38. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 39. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 40. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@476
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.get(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@141
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@141
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 10. org.eclipse.jetty.deploy.providers.ContextProvider.createContextHandler(Lorg/eclipse/jetty/deploy/App;)Lorg/eclipse/jetty/server/handler/ContextHandler;@88
+Fill Stack: 11. org.eclipse.jetty.deploy.App.getContextHandler()Lorg/eclipse/jetty/server/handler/ContextHandler;@13
+Fill Stack: 12. org.eclipse.jetty.deploy.bindings.StandardDeployer.processBinding(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;)V@1
+Fill Stack: 13. org.eclipse.jetty.deploy.AppLifeCycle.runBindings(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;Lorg/eclipse/jetty/deploy/DeploymentManager;)V@96
+Fill Stack: 14. org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(Lorg/eclipse/jetty/deploy/DeploymentManager$AppEntry;Ljava/lang/String;)V@145
+Fill Stack: 15. org.eclipse.jetty.deploy.DeploymentManager.addApp(Lorg/eclipse/jetty/deploy/App;)V@93
+Fill Stack: 16. org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(Ljava/lang/String;)V@56
+Fill Stack: 17. org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(Ljava/lang/String;)V@5
+Fill Stack: 18. org.eclipse.jetty.util.Scanner.reportAddition(Ljava/lang/String;)V@41
+Fill Stack: 19. org.eclipse.jetty.util.Scanner.reportDifferences(Ljava/util/Map;Ljava/util/Map;)V@595
+Fill Stack: 20. org.eclipse.jetty.util.Scanner.scan()V@28
+Fill Stack: 21. org.eclipse.jetty.util.Scanner.doStart()V@25
+Fill Stack: 22. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 23. org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart()V@194
+Fill Stack: 24. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 25. org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(Lorg/eclipse/jetty/deploy/AppProvider;)V@8
+Fill Stack: 26. org.eclipse.jetty.deploy.DeploymentManager.doStart()V@96
+Fill Stack: 27. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 28. org.eclipse.jetty.util.component.AggregateLifeCycle.doStart()V@64
+Fill Stack: 29. org.eclipse.jetty.server.handler.AbstractHandler.doStart()V@19
+Fill Stack: 30. org.eclipse.jetty.server.handler.HandlerWrapper.doStart()V@17
+Fill Stack: 31. org.eclipse.jetty.server.Server.doStart()V@84
+Fill Stack: 32. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 33. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@386
+Fill Stack: 34. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 35. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 36. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 37. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 38. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 39. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 40. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 41. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 42. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+2015-06-29 03:22:47.524:INFO:oejw.WebInfConfiguration:Extract jar:file:/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/test.war!/ to /tmp/jetty-0.0.0.0-8080-test.war-_-any-/webapp
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.util.TypeUtil.call(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@109
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@244
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;)Ljava/lang/Object;@104
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration.configure(Ljava/lang/Object;)Ljava/lang/Object;@5
+Fill Stack: 9. org.eclipse.jetty.webapp.JettyWebXmlConfiguration.configure(Lorg/eclipse/jetty/webapp/WebAppContext;)V@196
+Fill Stack: 10. org.eclipse.jetty.webapp.WebAppContext.configure()V@45
+Fill Stack: 11. org.eclipse.jetty.webapp.WebAppContext.startContext()V@1
+Fill Stack: 12. org.eclipse.jetty.server.handler.ContextHandler.doStart()V@116
+Fill Stack: 13. org.eclipse.jetty.webapp.WebAppContext.doStart()V@16
+Fill Stack: 14. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 15. org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;)V@13
+Fill Stack: 16. org.eclipse.jetty.deploy.AppLifeCycle.runBindings(Lorg/eclipse/jetty/deploy/graph/Node;Lorg/eclipse/jetty/deploy/App;Lorg/eclipse/jetty/deploy/DeploymentManager;)V@96
+Fill Stack: 17. org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(Lorg/eclipse/jetty/deploy/DeploymentManager$AppEntry;Ljava/lang/String;)V@145
+Fill Stack: 18. org.eclipse.jetty.deploy.DeploymentManager.addApp(Lorg/eclipse/jetty/deploy/App;)V@93
+Fill Stack: 19. org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(Ljava/lang/String;)V@56
+Fill Stack: 20. org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(Ljava/lang/String;)V@5
+Fill Stack: 21. org.eclipse.jetty.util.Scanner.reportAddition(Ljava/lang/String;)V@41
+Fill Stack: 22. org.eclipse.jetty.util.Scanner.reportDifferences(Ljava/util/Map;Ljava/util/Map;)V@595
+Fill Stack: 23. org.eclipse.jetty.util.Scanner.scan()V@28
+Fill Stack: 24. org.eclipse.jetty.util.Scanner.doStart()V@25
+Fill Stack: 25. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 26. org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart()V@194
+Fill Stack: 27. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 28. org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(Lorg/eclipse/jetty/deploy/AppProvider;)V@8
+Fill Stack: 29. org.eclipse.jetty.deploy.DeploymentManager.doStart()V@96
+Fill Stack: 30. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 31. org.eclipse.jetty.util.component.AggregateLifeCycle.doStart()V@64
+Fill Stack: 32. org.eclipse.jetty.server.handler.AbstractHandler.doStart()V@19
+Fill Stack: 33. org.eclipse.jetty.server.handler.HandlerWrapper.doStart()V@17
+Fill Stack: 34. org.eclipse.jetty.server.Server.doStart()V@84
+Fill Stack: 35. org.eclipse.jetty.util.component.AbstractLifeCycle.start()V@31
+Fill Stack: 36. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@386
+Fill Stack: 37. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 38. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 39. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 40. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 41. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 42. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 43. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 44. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 45. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@26
+recovery time: 0ms, result: 0
+2015-06-29 03:22:47.898:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/,file:/tmp/jetty-0.0.0.0-8080-test.war-_-any-/webapp/},/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/test.war
+2015-06-29 03:22:48.261:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8080
+Fill Stack: 0. org.apache.jasper.compiler.JspUtil.makeJavaIdentifier(Ljava/lang/String;)Ljava/lang/String;@14
+Fill Stack: 1. org.apache.jasper.JspCompilationContext.getServletClassName()Ljava/lang/String;@83
+Fill Stack: 2. org.apache.jasper.JspCompilationContext.getClassFileName()Ljava/lang/String;@23
+Fill Stack: 3. org.apache.jasper.compiler.Compiler.isOutDated(Z)Z@88
+Fill Stack: 4. org.apache.jasper.compiler.Compiler.isOutDated()Z@2
+Fill Stack: 5. org.apache.jasper.JspCompilationContext.compile()V@17
+Fill Stack: 6. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@108
+Fill Stack: 7. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@191
+Fill Stack: 8. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@429
+Fill Stack: 9. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 10. org.eclipse.jetty.servlet.ServletHolder.handle(Lorg/eclipse/jetty/server/Request;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@172
+Fill Stack: 11. org.eclipse.jetty.servlet.ServletHandler.doHandle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@212
+Fill Stack: 12. org.eclipse.jetty.server.handler.ScopedHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@25
+Fill Stack: 13. org.eclipse.jetty.security.SecurityHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@438
+Fill Stack: 14. org.eclipse.jetty.server.session.SessionHandler.doHandle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@68
+Fill Stack: 15. org.eclipse.jetty.server.handler.ContextHandler.doHandle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@206
+Fill Stack: 16. org.eclipse.jetty.servlet.ServletHandler.doScope(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@277
+Fill Stack: 17. org.eclipse.jetty.server.session.SessionHandler.doScope(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@233
+Fill Stack: 18. org.eclipse.jetty.server.handler.ContextHandler.doScope(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@416
+Fill Stack: 19. org.eclipse.jetty.server.handler.ScopedHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@13
+Fill Stack: 20. org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@399
+Fill Stack: 21. org.eclipse.jetty.server.handler.HandlerCollection.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@42
+Fill Stack: 22. org.eclipse.jetty.server.handler.HandlerWrapper.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@23
+Fill Stack: 23. org.eclipse.jetty.server.Server.handle(Lorg/eclipse/jetty/server/AbstractHttpConnection;)V@134
+Fill Stack: 24. org.eclipse.jetty.server.AbstractHttpConnection.handleRequest()V@222
+Fill Stack: 25. org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete()V@564
+Fill Stack: 26. org.eclipse.jetty.http.HttpParser.parseNext()I@2158
+Fill Stack: 27. org.eclipse.jetty.http.HttpParser.parseAvailable()Z@1
+Fill Stack: 28. org.eclipse.jetty.server.AsyncHttpConnection.handle()Lorg/eclipse/jetty/io/Connection;@80
+Fill Stack: 29. org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle()V@10
+Fill Stack: 30. org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run()V@4
+Fill Stack: 31. org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(Ljava/lang/Runnable;)V@1
+Fill Stack: 32. org.eclipse.jetty.util.thread.QueuedThreadPool$3.run()V@47
+Fill Stack: 33. java.lang.Thread.run()V@11
+Fill Stack: -1. java.lang.String.charAt(I)C@UNKNOWN
+(java/lang/StringIndexOutOfBoundsException) (trivially handled) (early return) (end_index=6, index=6, rettype=void)
+recovery time: 0ms, result: 1
+Fill Stack: 0. org.apache.jasper.compiler.JspUtil.makeJavaIdentifier(Ljava/lang/String;)Ljava/lang/String;@14
+Fill Stack: 1. org.apache.jasper.JspCompilationContext.getServletClassName()Ljava/lang/String;@83
+Fill Stack: 2. org.apache.jasper.JspCompilationContext.getFullClassName()Ljava/lang/String;@35
+Fill Stack: 3. org.apache.jasper.JspCompilationContext.load()Ljava/lang/Class;@1
+Fill Stack: 4. org.apache.jasper.servlet.JspServletWrapper.getServlet()Ljavax/servlet/Servlet;@27
+Fill Stack: 5. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@141
+Fill Stack: 6. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@191
+Fill Stack: 7. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@429
+Fill Stack: 8. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 9. org.eclipse.jetty.servlet.ServletHolder.handle(Lorg/eclipse/jetty/server/Request;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@172
+Fill Stack: 10. org.eclipse.jetty.servlet.ServletHandler.doHandle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@212
+Fill Stack: 11. org.eclipse.jetty.server.handler.ScopedHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@25
+Fill Stack: 12. org.eclipse.jetty.security.SecurityHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@438
+Fill Stack: 13. org.eclipse.jetty.server.session.SessionHandler.doHandle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@68
+Fill Stack: 14. org.eclipse.jetty.server.handler.ContextHandler.doHandle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@206
+Fill Stack: 15. org.eclipse.jetty.servlet.ServletHandler.doScope(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@277
+Fill Stack: 16. org.eclipse.jetty.server.session.SessionHandler.doScope(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@233
+Fill Stack: 17. org.eclipse.jetty.server.handler.ContextHandler.doScope(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@416
+Fill Stack: 18. org.eclipse.jetty.server.handler.ScopedHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@13
+Fill Stack: 19. org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@399
+Fill Stack: 20. org.eclipse.jetty.server.handler.HandlerCollection.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@42
+Fill Stack: 21. org.eclipse.jetty.server.handler.HandlerWrapper.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@23
+Fill Stack: 22. org.eclipse.jetty.server.Server.handle(Lorg/eclipse/jetty/server/AbstractHttpConnection;)V@134
+Fill Stack: 23. org.eclipse.jetty.server.AbstractHttpConnection.handleRequest()V@222
+Fill Stack: 24. org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete()V@564
+Fill Stack: 25. org.eclipse.jetty.http.HttpParser.parseNext()I@2158
+Fill Stack: 26. org.eclipse.jetty.http.HttpParser.parseAvailable()Z@1
+Fill Stack: 27. org.eclipse.jetty.server.AsyncHttpConnection.handle()Lorg/eclipse/jetty/io/Connection;@80
+Fill Stack: 28. org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle()V@10
+Fill Stack: 29. org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run()V@4
+Fill Stack: 30. org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(Ljava/lang/Runnable;)V@1
+Fill Stack: 31. org.eclipse.jetty.util.thread.QueuedThreadPool$3.run()V@47
+Fill Stack: 32. java.lang.Thread.run()V@11
+Fill Stack: -1. java.lang.String.charAt(I)C@UNKNOWN
+recovery time: 0ms, result: 0
+2015-06-29 03:22:52.762:WARN:oejs.ServletHandler:/sioobe/
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(String.java:658)
+	at org.apache.jasper.compiler.JspUtil.makeJavaIdentifier(JspUtil.java:1031)
+	at org.apache.jasper.JspCompilationContext.getServletClassName(JspCompilationContext.java:386)
+	at org.apache.jasper.JspCompilationContext.getFullClassName(JspCompilationContext.java:514)
+	at org.apache.jasper.JspCompilationContext.load(JspCompilationContext.java:634)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:195)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:386)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:476)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:366)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:565)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:479)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:965)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:449)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:910)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:745)
+2015-06-29 03:23:07.038:INFO:oejs.Server:Graceful shutdown SelectChannelConnector@0.0.0.0:8080
+2015-06-29 03:23:07.039:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/sioobe,file:/tmp/jetty-0.0.0.0-8080-sioobe.war-_sioobe-any-/webapp/},/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/sioobe.war
+2015-06-29 03:23:07.039:INFO:oejs.Server:Graceful shutdown o.e.j.s.h.ContextHandler{/javadoc,file:/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/javadoc/}
+2015-06-29 03:23:07.039:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/,file:/tmp/jetty-0.0.0.0-8080-test.war-_-any-/webapp/},/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/test.war
+2015-06-29 03:23:08.164:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2015-06-29 03:23:08.164:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/tmp/jetty-0.0.0.0-8080-test.war-_-any-/webapp/},/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/test.war
+2015-06-29 03:23:08.171:INFO:oejsh.ContextHandler:stopped o.e.j.s.h.ContextHandler{/javadoc,file:/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/javadoc/}
+2015-06-29 03:23:08.171:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2015-06-29 03:23:08.171:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/sioobe,file:/tmp/jetty-0.0.0.0-8080-sioobe.war-_sioobe-any-/webapp/},/home/t/Projects/error-transformation-vm/jetty/401531/jetty-distribution-7.6.0.v20120127/webapps/sioobe.war

@@ -1,0 +1,7 @@
+determine_failure_type: (java/lang/IllegalArgumentException) we found a non-trivial handler, index=4, caught class=java/lang/IllegalArgumentException
+Using java runtime at: /home/t/Projects/error-transformation/jdk1.7.0_67/jre
+determine_failure_type: (java/lang/NullPointerException) trivially handled, index=3, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=3
+(java/lang/NullPointerException) (trivially handled) (error transformation) (end_index=3, index=0, target_exception_klass=java/io/IOException)
+recover: RecoveryType: error transformation
+recovery time: 0ms

@@ -1,0 +1,433 @@
+Classfile jar:file:/home/t/Projects/error-transformation/jetty/414393/jetty-distribution-8.1.12.v20130726/lib/jetty-util-8.1.12.v20130726.jar!/org/eclipse/jetty/util/ReadLineInputStream.class
+  Last modified Jul 26, 2013; size 1872 bytes
+  MD5 checksum d388a0cecac19cdb75eb9f71b8583f5a
+  Compiled from "ReadLineInputStream.java"
+public class org.eclipse.jetty.util.ReadLineInputStream extends java.io.BufferedInputStream
+  SourceFile: "ReadLineInputStream.java"
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #16.#49        //  java/io/BufferedInputStream."<init>":(Ljava/io/InputStream;)V
+   #2 = Methodref          #16.#50        //  java/io/BufferedInputStream."<init>":(Ljava/io/InputStream;I)V
+   #3 = Fieldref           #15.#51        //  org/eclipse/jetty/util/ReadLineInputStream.buf:[B
+   #4 = Methodref          #15.#52        //  org/eclipse/jetty/util/ReadLineInputStream.mark:(I)V
+   #5 = Methodref          #16.#53        //  java/io/BufferedInputStream.read:()I
+   #6 = Fieldref           #15.#54        //  org/eclipse/jetty/util/ReadLineInputStream.markpos:I
+   #7 = Fieldref           #15.#55        //  org/eclipse/jetty/util/ReadLineInputStream.pos:I
+   #8 = Class              #56            //  java/lang/String
+   #9 = Fieldref           #57.#58        //  org/eclipse/jetty/util/StringUtil.__UTF8_CHARSET:Ljava/nio/charset/Charset;
+  #10 = Methodref          #8.#59         //  java/lang/String."<init>":([BIILjava/nio/charset/Charset;)V
+  #11 = Fieldref           #15.#60        //  org/eclipse/jetty/util/ReadLineInputStream._seenCRLF:Z
+  #12 = Fieldref           #15.#61        //  org/eclipse/jetty/util/ReadLineInputStream.count:I
+  #13 = Fieldref           #15.#62        //  org/eclipse/jetty/util/ReadLineInputStream._skipLF:Z
+  #14 = Methodref          #16.#63        //  java/io/BufferedInputStream.read:([BII)I
+  #15 = Class              #64            //  org/eclipse/jetty/util/ReadLineInputStream
+  #16 = Class              #65            //  java/io/BufferedInputStream
+  #17 = Utf8               _seenCRLF
+  #18 = Utf8               Z
+  #19 = Utf8               _skipLF
+  #20 = Utf8               <init>
+  #21 = Utf8               (Ljava/io/InputStream;)V
+  #22 = Utf8               Code
+  #23 = Utf8               LineNumberTable
+  #24 = Utf8               LocalVariableTable
+  #25 = Utf8               this
+  #26 = Utf8               Lorg/eclipse/jetty/util/ReadLineInputStream;
+  #27 = Utf8               in
+  #28 = Utf8               Ljava/io/InputStream;
+  #29 = Utf8               (Ljava/io/InputStream;I)V
+  #30 = Utf8               size
+  #31 = Utf8               I
+  #32 = Utf8               readLine
+  #33 = Utf8               ()Ljava/lang/String;
+  #34 = Utf8               m
+  #35 = Utf8               p
+  #36 = Utf8               b
+  #37 = Utf8               StackMapTable
+  #38 = Utf8               Exceptions
+  #39 = Class              #66            //  java/io/IOException
+  #40 = Utf8               read
+  #41 = Utf8               ()I
+  #42 = Utf8               ([BII)I
+  #43 = Utf8               buf
+  #44 = Utf8               [B
+  #45 = Utf8               off
+  #46 = Utf8               len
+  #47 = Utf8               SourceFile
+  #48 = Utf8               ReadLineInputStream.java
+  #49 = NameAndType        #20:#21        //  "<init>":(Ljava/io/InputStream;)V
+  #50 = NameAndType        #20:#29        //  "<init>":(Ljava/io/InputStream;I)V
+  #51 = NameAndType        #43:#44        //  buf:[B
+  #52 = NameAndType        #67:#68        //  mark:(I)V
+  #53 = NameAndType        #40:#41        //  read:()I
+  #54 = NameAndType        #69:#31        //  markpos:I
+  #55 = NameAndType        #70:#31        //  pos:I
+  #56 = Utf8               java/lang/String
+  #57 = Class              #71            //  org/eclipse/jetty/util/StringUtil
+  #58 = NameAndType        #72:#73        //  __UTF8_CHARSET:Ljava/nio/charset/Charset;
+  #59 = NameAndType        #20:#74        //  "<init>":([BIILjava/nio/charset/Charset;)V
+  #60 = NameAndType        #17:#18        //  _seenCRLF:Z
+  #61 = NameAndType        #75:#31        //  count:I
+  #62 = NameAndType        #19:#18        //  _skipLF:Z
+  #63 = NameAndType        #40:#42        //  read:([BII)I
+  #64 = Utf8               org/eclipse/jetty/util/ReadLineInputStream
+  #65 = Utf8               java/io/BufferedInputStream
+  #66 = Utf8               java/io/IOException
+  #67 = Utf8               mark
+  #68 = Utf8               (I)V
+  #69 = Utf8               markpos
+  #70 = Utf8               pos
+  #71 = Utf8               org/eclipse/jetty/util/StringUtil
+  #72 = Utf8               __UTF8_CHARSET
+  #73 = Utf8               Ljava/nio/charset/Charset;
+  #74 = Utf8               ([BIILjava/nio/charset/Charset;)V
+  #75 = Utf8               count
+{
+  boolean _seenCRLF;
+    flags: 
+
+  boolean _skipLF;
+    flags: 
+
+  public org.eclipse.jetty.util.ReadLineInputStream(java.io.InputStream);
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0       
+         1: aload_1       
+         2: invokespecial #1                  // Method java/io/BufferedInputStream."<init>":(Ljava/io/InputStream;)V
+         5: return        
+      LineNumberTable:
+        line 37: 0
+        line 38: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       6     0  this   Lorg/eclipse/jetty/util/ReadLineInputStream;
+               0       6     1    in   Ljava/io/InputStream;
+
+  public org.eclipse.jetty.util.ReadLineInputStream(java.io.InputStream, int);
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=3
+         0: aload_0       
+         1: aload_1       
+         2: iload_2       
+         3: invokespecial #2                  // Method java/io/BufferedInputStream."<init>":(Ljava/io/InputStream;I)V
+         6: return        
+      LineNumberTable:
+        line 42: 0
+        line 43: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       7     0  this   Lorg/eclipse/jetty/util/ReadLineInputStream;
+               0       7     1    in   Ljava/io/InputStream;
+               0       7     2  size   I
+
+  public java.lang.String readLine() throws java.io.IOException;
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=4, args_size=1
+         0: aload_0       
+         1: aload_0       
+         2: getfield      #3                  // Field buf:[B
+         5: arraylength   
+         6: invokevirtual #4                  // Method mark:(I)V
+         9: aload_0       
+        10: invokespecial #5                  // Method java/io/BufferedInputStream.read:()I
+        13: istore_1      
+        14: iload_1       
+        15: iconst_m1     
+        16: if_icmpne     61
+        19: aload_0       
+        20: getfield      #6                  // Field markpos:I
+        23: istore_2      
+        24: aload_0       
+        25: iconst_m1     
+        26: putfield      #6                  // Field markpos:I
+        29: aload_0       
+        30: getfield      #7                  // Field pos:I
+        33: iload_2       
+        34: if_icmple     59
+        37: new           #8                  // class java/lang/String
+        40: dup           
+        41: aload_0       
+        42: getfield      #3                  // Field buf:[B
+        45: iload_2       
+        46: aload_0       
+        47: getfield      #7                  // Field pos:I
+        50: iload_2       
+        51: isub          
+        52: getstatic     #9                  // Field org/eclipse/jetty/util/StringUtil.__UTF8_CHARSET:Ljava/nio/charset/Charset;
+        55: invokespecial #10                 // Method java/lang/String."<init>":([BIILjava/nio/charset/Charset;)V
+        58: areturn       
+        59: aconst_null   
+        60: areturn       
+        61: iload_1       
+        62: bipush        13
+        64: if_icmpne     153
+        67: aload_0       
+        68: getfield      #7                  // Field pos:I
+        71: istore_2      
+        72: aload_0       
+        73: getfield      #11                 // Field _seenCRLF:Z
+        76: ifeq          117
+        79: aload_0       
+        80: getfield      #7                  // Field pos:I
+        83: aload_0       
+        84: getfield      #12                 // Field count:I
+        87: if_icmpge     117
+        90: aload_0       
+        91: getfield      #3                  // Field buf:[B
+        94: aload_0       
+        95: getfield      #7                  // Field pos:I
+        98: baload        
+        99: bipush        10
+       101: if_icmpne     122
+       104: aload_0       
+       105: dup           
+       106: getfield      #7                  // Field pos:I
+       109: iconst_1      
+       110: iadd          
+       111: putfield      #7                  // Field pos:I
+       114: goto          122
+       117: aload_0       
+       118: iconst_1      
+       119: putfield      #13                 // Field _skipLF:Z
+       122: aload_0       
+       123: getfield      #6                  // Field markpos:I
+       126: istore_3      
+       127: aload_0       
+       128: iconst_m1     
+       129: putfield      #6                  // Field markpos:I
+       132: new           #8                  // class java/lang/String
+       135: dup           
+       136: aload_0       
+       137: getfield      #3                  // Field buf:[B
+       140: iload_3       
+       141: iload_2       
+       142: iload_3       
+       143: isub          
+       144: iconst_1      
+       145: isub          
+       146: getstatic     #9                  // Field org/eclipse/jetty/util/StringUtil.__UTF8_CHARSET:Ljava/nio/charset/Charset;
+       149: invokespecial #10                 // Method java/lang/String."<init>":([BIILjava/nio/charset/Charset;)V
+       152: areturn       
+       153: iload_1       
+       154: bipush        10
+       156: if_icmpne     223
+       159: aload_0       
+       160: getfield      #13                 // Field _skipLF:Z
+       163: ifeq          189
+       166: aload_0       
+       167: iconst_0      
+       168: putfield      #13                 // Field _skipLF:Z
+       171: aload_0       
+       172: iconst_1      
+       173: putfield      #11                 // Field _seenCRLF:Z
+       176: aload_0       
+       177: dup           
+       178: getfield      #6                  // Field markpos:I
+       181: iconst_1      
+       182: iadd          
+       183: putfield      #6                  // Field markpos:I
+       186: goto          9
+       189: aload_0       
+       190: getfield      #6                  // Field markpos:I
+       193: istore_2      
+       194: aload_0       
+       195: iconst_m1     
+       196: putfield      #6                  // Field markpos:I
+       199: new           #8                  // class java/lang/String
+       202: dup           
+       203: aload_0       
+       204: getfield      #3                  // Field buf:[B
+       207: iload_2       
+       208: aload_0       
+       209: getfield      #7                  // Field pos:I
+       212: iload_2       
+       213: isub          
+       214: iconst_1      
+       215: isub          
+       216: getstatic     #9                  // Field org/eclipse/jetty/util/StringUtil.__UTF8_CHARSET:Ljava/nio/charset/Charset;
+       219: invokespecial #10                 // Method java/lang/String."<init>":([BIILjava/nio/charset/Charset;)V
+       222: areturn       
+       223: goto          9
+      LineNumberTable:
+        line 47: 0
+        line 51: 9
+        line 52: 14
+        line 54: 19
+        line 55: 24
+        line 56: 29
+        line 57: 37
+        line 59: 59
+        line 62: 61
+        line 64: 67
+        line 67: 72
+        line 69: 90
+        line 70: 104
+        line 73: 117
+        line 74: 122
+        line 75: 127
+        line 76: 132
+        line 79: 153
+        line 81: 159
+        line 83: 166
+        line 84: 171
+        line 85: 176
+        line 86: 186
+        line 88: 189
+        line 89: 194
+        line 90: 199
+        line 92: 223
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+              24      37     2     m   I
+              72      81     2     p   I
+             127      26     3     m   I
+             194      29     2     m   I
+              14     209     1     b   I
+               0     226     0  this   Lorg/eclipse/jetty/util/ReadLineInputStream;
+      StackMapTable: number_of_entries = 8
+           frame_type = 9 /* same */
+           frame_type = 253 /* append */
+             offset_delta = 49
+        locals = [ int, int ]
+           frame_type = 250 /* chop */
+          offset_delta = 1
+           frame_type = 252 /* append */
+             offset_delta = 55
+        locals = [ int ]
+           frame_type = 4 /* same */
+           frame_type = 250 /* chop */
+          offset_delta = 30
+           frame_type = 35 /* same */
+           frame_type = 250 /* chop */
+          offset_delta = 33
+
+    Exceptions:
+      throws java.io.IOException
+
+  public synchronized int read() throws java.io.IOException;
+    flags: ACC_PUBLIC, ACC_SYNCHRONIZED
+    Code:
+      stack=2, locals=2, args_size=1
+         0: aload_0       
+         1: invokespecial #5                  // Method java/io/BufferedInputStream.read:()I
+         4: istore_1      
+         5: aload_0       
+         6: getfield      #13                 // Field _skipLF:Z
+         9: ifeq          35
+        12: aload_0       
+        13: iconst_0      
+        14: putfield      #13                 // Field _skipLF:Z
+        17: aload_0       
+        18: getfield      #11                 // Field _seenCRLF:Z
+        21: ifeq          35
+        24: iload_1       
+        25: bipush        10
+        27: if_icmpne     35
+        30: aload_0       
+        31: invokespecial #5                  // Method java/io/BufferedInputStream.read:()I
+        34: istore_1      
+        35: iload_1       
+        36: ireturn       
+      LineNumberTable:
+        line 98: 0
+        line 99: 5
+        line 101: 12
+        line 102: 17
+        line 103: 30
+        line 105: 35
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      37     0  this   Lorg/eclipse/jetty/util/ReadLineInputStream;
+               5      32     1     b   I
+      StackMapTable: number_of_entries = 1
+           frame_type = 252 /* append */
+             offset_delta = 35
+        locals = [ int ]
+
+    Exceptions:
+      throws java.io.IOException
+
+  public synchronized int read(byte[], int, int) throws java.io.IOException;
+    flags: ACC_PUBLIC, ACC_SYNCHRONIZED
+    Code:
+      stack=6, locals=5, args_size=4
+         0: aload_0       
+         1: getfield      #13                 // Field _skipLF:Z
+         4: ifeq          68
+         7: iload_3       
+         8: ifle          68
+        11: aload_0       
+        12: iconst_0      
+        13: putfield      #13                 // Field _skipLF:Z
+        16: aload_0       
+        17: getfield      #11                 // Field _seenCRLF:Z
+        20: ifeq          68
+        23: aload_0       
+        24: invokespecial #5                  // Method java/io/BufferedInputStream.read:()I
+        27: istore        4
+        29: iload         4
+        31: iconst_m1     
+        32: if_icmpne     37
+        35: iconst_m1     
+        36: ireturn       
+        37: iload         4
+        39: bipush        10
+        41: if_icmpeq     68
+        44: aload_1       
+        45: iload_2       
+        46: sipush        255
+        49: iload         4
+        51: iand          
+        52: i2b           
+        53: bastore       
+        54: iconst_1      
+        55: aload_0       
+        56: aload_1       
+        57: iload_2       
+        58: iconst_1      
+        59: iadd          
+        60: iload_3       
+        61: iconst_1      
+        62: isub          
+        63: invokespecial #14                 // Method java/io/BufferedInputStream.read:([BII)I
+        66: iadd          
+        67: ireturn       
+        68: aload_0       
+        69: aload_1       
+        70: iload_2       
+        71: iload_3       
+        72: invokespecial #14                 // Method java/io/BufferedInputStream.read:([BII)I
+        75: ireturn       
+      LineNumberTable:
+        line 111: 0
+        line 113: 11
+        line 114: 16
+        line 116: 23
+        line 117: 29
+        line 118: 35
+        line 120: 37
+        line 122: 44
+        line 123: 54
+        line 128: 68
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+              29      39     4     b   I
+               0      76     0  this   Lorg/eclipse/jetty/util/ReadLineInputStream;
+               0      76     1   buf   [B
+               0      76     2   off   I
+               0      76     3   len   I
+      StackMapTable: number_of_entries = 2
+           frame_type = 252 /* append */
+             offset_delta = 37
+        locals = [ int ]
+           frame_type = 250 /* chop */
+          offset_delta = 30
+
+    Exceptions:
+      throws java.io.IOException
+}

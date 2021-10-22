@@ -1,0 +1,90 @@
+2015-06-29 03:01:41.197:INFO::jetty-8.0.0.M2
+2015-06-29 03:01:41.270:INFO::Started SelectChannelConnector@0.0.0.0:8080
+Fill Stack: 0. org.eclipse.jetty.util.MultiPartInputStream.<init>(Ljava/io/InputStream;Ljava/lang/String;Ljavax/servlet/MultipartConfigElement;Ljava/io/File;)V@52
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. org.eclipse.jetty.server.Request.getParts()Ljava/util/Collection;@78
+Fill Stack: 2. test.HelloWorld.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@25
+Fill Stack: 3. org.eclipse.jetty.server.handler.HandlerWrapper.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@23
+Fill Stack: 4. org.eclipse.jetty.server.Server.handle(Lorg/eclipse/jetty/server/HttpConnection;)V@111
+Fill Stack: 5. org.eclipse.jetty.server.HttpConnection.handleRequest()V@223
+Fill Stack: 6. org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete()V@421
+Fill Stack: 7. org.eclipse.jetty.http.HttpParser.parseNext()J@2192
+Fill Stack: 8. org.eclipse.jetty.http.HttpParser.parseAvailable()J@1
+Fill Stack: 9. org.eclipse.jetty.server.HttpConnection.handle()Lorg/eclipse/jetty/io/Connection;@239
+Fill Stack: 10. org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle()V@10
+Fill Stack: 11. org.eclipse.jetty.io.nio.SelectChannelEndPoint.access$000(Lorg/eclipse/jetty/io/nio/SelectChannelEndPoint;)V@1
+Fill Stack: 12. org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run()V@4
+Fill Stack: 13. org.eclipse.jetty.util.thread.QueuedThreadPool$2.run()V@43
+Fill Stack: 14. java.lang.Thread.run()V@11
+Fill Stack: -1. java.io.File.<init>(Ljava/lang/String;)V@UNKNOWN
+End initialize
+Push local reference at 1, r=410, c=org.eclipse.jetty.server.Request
+Push local reference at 2, r=430, c=org.eclipse.jetty.util.MultiPartInputStream
+Push local reference at 5, r=430, c=org.eclipse.jetty.util.MultiPartInputStream
+WARNNING: allocating an object of ClassInfo[name=java.io.File] that has been reimplemented by JPF.
+Transforming a file object null
+Push local reference at 6, r=440, c=java.io.File
+Total actions: 5
+   0: ErrorTransformation: fd=6, rd=1, efd=0, tt=java.io.IOException
+   1: ErrorTransformation: fd=6, rd=1, efd=0, tt=javax.servlet.ServletException
+   2: EarlyReturn: fd=6, rd=6, efd=5, at=6
+   3: EarlyReturn: fd=6, rd=5, efd=4, at=5
+   4: EarlyReturn: fd=6, rd=4, efd=3, at=4
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=6, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=6, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=6, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=6, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=6, rd=6, efd=5, at=6
+Recover action EarlyReturn: fd=6, rd=6, efd=5, at=6 resulted in gov.nasa.jpf.JPFNativePeerException: exception in native method java.io.File.getAbsolutePath
+-------------------------------------------------------------
+java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at gov.nasa.jpf.vm.JPF_java_io_File.getFile(JPF_java_io_File.java:42)
+	at gov.nasa.jpf.vm.JPF_java_io_File.getAbsolutePath____Ljava_lang_String_2(JPF_java_io_File.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at gov.nasa.jpf.vm.NativeMethodInfo.executeNative(NativeMethodInfo.java:120)
+	at org.javelus.javaplus.jvm.bytecode.EXECUTENATIVE.execute(EXECUTENATIVE.java:19)
+	at gov.nasa.jpf.vm.ThreadInfo.executeInstruction(ThreadInfo.java:1887)
+	at gov.nasa.jpf.vm.ThreadInfo.executeTransition(ThreadInfo.java:1845)
+	at gov.nasa.jpf.vm.SystemState.executeNextTransition(SystemState.java:733)
+	at gov.nasa.jpf.vm.JavaPlusVM.recoverAndForward(JavaPlusVM.java:267)
+	at gov.nasa.jpf.vm.JavaPlusSearch.search(JavaPlusSearch.java:20)
+	at gov.nasa.jpf.JavaPlus.run(JavaPlus.java:129)
+	at gov.nasa.jpf.JavaPlus.runDefault(JavaPlus.java:195)
+	at org.eclipse.jetty.util.MultiPartInputStream.<init>(MultiPartInputStream.java:297)
+	at org.eclipse.jetty.server.Request.getParts(Request.java:1914)
+	at test.HelloWorld.handle(HelloWorld.java:22)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:114)
+	at org.eclipse.jetty.server.Server.handle(Server.java:353)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:598)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:1059)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:599)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:427)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:510)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.access$000(SelectChannelEndPoint.java:34)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:450)
+	at java.lang.Thread.run(Thread.java:745)
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=6, rd=5, efd=4, at=5
+Recover action EarlyReturn: fd=6, rd=5, efd=4, at=5 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=6, rd=4, efd=3, at=4
+Recover action EarlyReturn: fd=6, rd=4, efd=3, at=4 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+Total results: 2
+   0: ErrorTransformation: fd=6, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=1
+   1: ErrorTransformation: fd=6, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (error transformation) (target_exception_klass=java/io/IOException, max_depth=5, final_max_depth=5)
+recovery time: 1195ms, result: 1
+2015-06-29 03:01:46.316:WARN::/: java.io.IOException: Exception transformation: java/lang/NullPointerException -> java/io/IOException.

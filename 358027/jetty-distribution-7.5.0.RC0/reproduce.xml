@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
+
+<Configure id="Server" class="org.eclipse.jetty.server.Server">
+  <Call name="addConnector">
+    <Arg>
+      <New class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+        <Set name="port">30303</Set>
+      </New>
+    </Arg>
+  </Call>
+
+  <Set name="handler">
+    <New id="ResourceHandler" class="org.eclipse.jetty.server.handler.ResourceHandler">
+      <Set name="resourceBase">.</Set>
+    </New>
+  </Set>
+</Configure>

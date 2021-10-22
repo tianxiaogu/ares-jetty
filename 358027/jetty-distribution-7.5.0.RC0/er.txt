@@ -1,0 +1,43 @@
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.set(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)V@422
+Fill Stack: 5. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@80
+Fill Stack: 6. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.newObj(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@297
+Fill Stack: 7. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.itemValue(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;@67
+Fill Stack: 8. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.value(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@225
+Fill Stack: 9. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.call(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;)Ljava/lang/Object;@176
+Fill Stack: 10. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure(Ljava/lang/Object;Lorg/eclipse/jetty/xml/XmlParser$Node;I)V@120
+Fill Stack: 11. org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration.configure()Ljava/lang/Object;@82
+Fill Stack: 12. org.eclipse.jetty.xml.XmlConfiguration.configure()Ljava/lang/Object;@4
+Fill Stack: 13. org.eclipse.jetty.xml.XmlConfiguration$1.run()Ljava/lang/Object;@302
+Fill Stack: 14. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;@0
+Fill Stack: 15. org.eclipse.jetty.xml.XmlConfiguration.main([Ljava/lang/String;)V@17
+Fill Stack: 16. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 18. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 19. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 20. org.eclipse.jetty.start.Main.invokeMain(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/List;)V@167
+Fill Stack: 21. org.eclipse.jetty.start.Main.start(Ljava/util/List;)V@599
+Fill Stack: 22. org.eclipse.jetty.start.Main.parseCommandLine([Ljava/lang/String;)V@974
+Fill Stack: 23. org.eclipse.jetty.start.Main.main([Ljava/lang/String;)V@10
+recovery time: 0ms, result: 0
+2015-06-29 03:04:05.146:INFO::jetty-7.5.0.RC0
+2015-06-29 03:04:05.247:INFO::Started SelectChannelConnector@0.0.0.0:30303 STARTING
+Fill Stack: 0. org.eclipse.jetty.server.handler.ResourceHandler.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@100
+Fill Stack: 1. org.eclipse.jetty.server.handler.HandlerWrapper.handle(Ljava/lang/String;Lorg/eclipse/jetty/server/Request;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@23
+Fill Stack: 2. org.eclipse.jetty.server.Server.handle(Lorg/eclipse/jetty/server/HttpConnection;)V@111
+Fill Stack: 3. org.eclipse.jetty.server.HttpConnection.handleRequest()V@217
+Fill Stack: 4. org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete()V@421
+Fill Stack: 5. org.eclipse.jetty.http.HttpParser.parseNext()I@1871
+Fill Stack: 6. org.eclipse.jetty.http.HttpParser.parseAvailable()I@1
+Fill Stack: 7. org.eclipse.jetty.server.AsyncHttpConnection.handle()Lorg/eclipse/jetty/io/Connection;@90
+Fill Stack: 8. org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle()V@10
+Fill Stack: 9. org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run()V@4
+Fill Stack: 10. org.eclipse.jetty.util.thread.QueuedThreadPool$3.run()V@43
+Fill Stack: 11. java.lang.Thread.run()V@11
+Fill Stack: -1. org.eclipse.jetty.util.resource.Resource.getAlias()Ljava/net/URL;@UNKNOWN
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=3, index=1, rettype=void)
+recovery time: 0ms, result: 1
